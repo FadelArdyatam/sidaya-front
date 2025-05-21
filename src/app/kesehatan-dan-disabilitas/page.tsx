@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import {  Pill, Brain, HeartHandshake, Cross, HospitalIcon, HeartMinus } from 'lucide-react';
+import Image from 'next/image';
 
 export default function KesehatanDanDisabilitasPage() {
   const menuItems = [
@@ -61,11 +62,13 @@ export default function KesehatanDanDisabilitasPage() {
               </div>
             </div>
             <div className="mt-8 md:mt-0">
-                            <img 
-                src="images/disabled.png" 
-                alt="Kesehatan dan Disabilitas" 
-                className="w-64 h-64 object-contain"
-              />
+                            <Image 
+                              src="/images/disabled.png" 
+                              alt="Pencatatan dan Pelaporan" 
+                              width={256} 
+                              height={256} 
+                              className="object-contain"
+                            />
             </div>
           </div>
         </div>

@@ -1,177 +1,115 @@
 "use client";
 
 import Link from "next/link";
-import { Facebook, Instagram, Twitter, Youtube } from "lucide-react";
+import { Facebook, Instagram, Twitter, Mail, Phone, MapPin } from "lucide-react";
+import Image from "next/image";
 
 export default function Footer() {
   return (
     <footer className="bg-amber-800 text-white">
-      <div className="container mx-auto py-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
-          {/* SIDAYA */}
+      <div className="container mx-auto px-4 py-12">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="font-medium text-lg mb-4">SIDAYA</h3>
-            <nav className="space-y-2">
-              <Link href="/about-us" className="block hover:underline">
-                About us
-              </Link>
-              <Link href="/forms" className="block hover:underline">
-                Forms
-              </Link>
-              <Link href="/scams-and-identity-theft" className="block hover:underline">
-                Scams
-              </Link>
-              <Link href="/media" className="block hover:underline">
-                Media
-              </Link>
-              <Link href="https://ministers.dss.gov.au/katy-gallagher" className="block hover:underline">
-                Our Minister
-              </Link>
-            </nav>
-          </div>
-
-          {/* Contact */}
-          <div>
-            <h3 className="font-medium text-lg mb-4">Contact</h3>
-            <nav className="space-y-2">
-              <Link href="/contact-us" className="block hover:underline">
-                Contact us
-              </Link>
-              <Link href="https://findus.servicesaustralia.gov.au" className="block hover:underline">
-                Find us
-              </Link>
-              <Link href="/complaints-and-feedback" className="block hover:underline">
-                Complaints and feedback
-              </Link>
-            </nav>
-          </div>
-
-          {/* Businesses */}
-          <div>
-            <h3 className="font-medium text-lg mb-4">Businesses</h3>
-            <nav className="space-y-2">
-              <Link href="/proda-provider-digital-access" className="block hover:underline">
-                PRODA
-              </Link>
-              <Link href="/business-hub" className="block hover:underline">
-                Business Hub
-              </Link>
-              <Link href="/paid-parental-leave-scheme-for-employers" className="block hover:underline">
-                Paid Parental Leave scheme for employers
-              </Link>
-            </nav>
-          </div>
-
-          {/* Community groups */}
-          <div>
-            <h3 className="font-medium text-lg mb-4">Community groups</h3>
-            <nav className="space-y-2">
-              <Link href="/community-resources-and-help" className="block hover:underline">
-                Community resources and help
-              </Link>
-              <Link href="/providing-voluntary-work-opportunities" className="block hover:underline">
-                Providing voluntary work opportunities
-              </Link>
-              <Link href="/family-organisations" className="block hover:underline">
-                Family organisations
-              </Link>
-            </nav>
-          </div>
-
-          {/* Health professionals */}
-          <div>
-            <h3 className="font-medium text-lg mb-4">Health professionals</h3>
-            <nav className="space-y-2">
-              <Link href="/patient-care" className="block hover:underline">
-                Patient care
-              </Link>
-              <Link href="/payments-and-claims-for-your-patients" className="block hover:underline">
-                Payments and claims
-              </Link>
-              <Link href="/practice-administration" className="block hover:underline">
-                Practice administration
-              </Link>
-              <Link href="/individual-practitioners" className="block hover:underline">
-                Individual practitioners
-              </Link>
-              <Link href="/resources-for-health-professionals" className="block hover:underline">
-                Resources for health professionals
-              </Link>
-            </nav>
-          </div>
-        </div>
-
-        {/* Footer bottom links */}
-        <div className="flex flex-wrap gap-4 mt-12 border-t border-gray-800 pt-6">
-          <Link href="/your-right-to-privacy" className="text-sm hover:underline">
-            Privacy
-          </Link>
-          <Link href="/site-notices" className="text-sm hover:underline">
-            Site notices
-          </Link>
-          <Link href="/accessibility" className="text-sm hover:underline">
-            Accessibility
-          </Link>
-          <Link href="/access-to-information" className="text-sm hover:underline">
-            Access to information
-          </Link>
-          <Link href="/accessing-our-services" className="text-sm hover:underline">
-            Accessing our services
-          </Link>
-        </div>
-
-        {/* Languages and Social Media */}
-        <div className="flex flex-col md:flex-row justify-between mt-12">
-          <div>
-            <h3 className="font-medium mb-4">Languages</h3>
-            <Link href="/information-your-language" className="inline-flex items-center hover:underline">
-              <span className="mr-2">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                  <circle cx="12" cy="12" r="12" fill="white" />
-                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z" fill="#333" />
-                </svg>
-              </span>
-              Español
-            </Link>
-          </div>
-
-          <div>
-            <h3 className="font-medium mb-4 mt-6 md:mt-0">Follow us</h3>
+            <h3 className="text-4xl font-bold mb-4 text-yellow-500">SIDAYA</h3>
+            <p className="text-gray-300 mb-4">Layanan perawatan dan dukungan untuk lansia di atas 65 tahun.</p>
             <div className="flex space-x-4">
-              <Link href="/connect-with-us-social-media" className="hover:opacity-80">
-                <Facebook className="h-6 w-6" />
-              </Link>
-              <Link href="/connect-with-us-social-media" className="hover:opacity-80">
-                <Instagram className="h-6 w-6" />
-              </Link>
-              <Link href="/connect-with-us-social-media" className="hover:opacity-80">
-                <Twitter className="h-6 w-6" />
-              </Link>
-              <Link href="/connect-with-us-social-media" className="hover:opacity-80">
-                <Youtube className="h-6 w-6" />
-              </Link>
+              <a href="#" className="text-gray-300 hover:text-yellow-500 transition-colors">
+                <Facebook size={20} />
+              </a>
+              <a href="#" className="text-gray-300 hover:text-yellow-500 transition-colors">
+                <Twitter size={20} />
+              </a>
+              <a href="#" className="text-gray-300 hover:text-yellow-500 transition-colors">
+                <Instagram size={20} />
+              </a>
             </div>
+            <div className=" mt-4 bg-amber-500 w-10 h-5 md:w-50 md:h-25 shrink-0 p-3">
+                            <Image 
+                              src="/images/logo-kemendukbangga-dengan-text.png" 
+                              alt="Pencatatan dan Pelaporan" 
+                              width={256} 
+                              height={256} 
+                              className="object-contain"
+                            />
+              </div>
+          </div>
+
+          <div>
+            <h3 className="text-lg font-bold mb-4">Tautan Cepat</h3>
+            <ul className="space-y-2">
+              <li>
+                <Link href="#" className="text-gray-300 hover:text-yellow-500 transition-colors">
+                  BERANDA
+                </Link>
+              </li>
+              <li>
+                <Link href="/artikel" className="text-gray-300 hover:text-yellow-500 transition-colors">
+                  ARTIKEL
+                </Link>
+              </li>
+              <li>
+                <Link href="/dimensi-lantang" className="text-gray-300 hover:text-yellow-500 transition-colors">
+                  7DIMENSI LANTANG
+                </Link>
+              </li>
+              <li>
+                <Link href="/informasi" className="text-gray-300 hover:text-yellow-500 transition-colors">
+                  INFORMASI
+                </Link>
+              </li>
+              <li>
+                <Link href="/pencatatan" className="text-gray-300 hover:text-yellow-500 transition-colors">
+                  PENCATATAN DAN PELAPORAN
+                </Link>
+              </li>
+              <li>
+                <Link href="/register" className="text-gray-300 hover:text-yellow-500 transition-colors">
+                  REGISTRASI
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="text-lg font-bold mb-4">Kontak</h3>
+            <ul className="space-y-4">
+              <li className="flex items-start">
+                <MapPin size={20} className="mr-2 text-yellow-500 flex-shrink-0 mt-1" />
+                <span className="text-gray-300">Jl. Permata No.1, Halim Perdanakusuma Jakarta Timur, 13650</span>
+              </li>
+              <li className="flex items-center">
+                <Phone size={20} className="mr-2 text-yellow-500" />
+                <div>
+                  <p className="text-gray-300">0218098018 ext: 491</p>
+                  <p className="text-gray-300">081299986001</p>
+                </div>
+              </li>
+              <li className="flex items-center">
+                <Mail size={20} className="mr-2 text-yellow-500" />
+                <div>
+                  <p className="text-gray-300">dithanlan@bkkbn.go.id</p>
+                  <p className="text-gray-300">sidaya@kemendukbangga.go.id</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="text-lg font-bold mb-4">Website</h3>
+            <ul className="space-y-2">
+              <li>
+                <Link href="www.sidaya.kemendukbangga.go.id" className="text-gray-300 hover:text-yellow-500 transition-colors">
+                  www.sidaya.kemendukbangga.go.id
+                </Link>
+              </li>
+            </ul>
+            <h3 className="text-lg font-bold mt-6 mb-4">Fax</h3>
+            <p className="text-gray-300">021-800855</p>
           </div>
         </div>
 
-        {/* Copyright and Acknowledgement */}
-        <div className="mt-12 text-sm">
-          <p className="mb-4">
-            Sidaya acknowledges the Traditional Custodians of the lands we live on. We pay our
-            respects to all Elders, past and present, of all Aboriginal and Torres Strait Islander nations.
-          </p>
-          <div className="flex items-center">
-            <svg width="30" height="20" viewBox="0 0 30 20">
-              <image href="https://ext.same-assets.com/1015004795/2895575613.svg" width="30" height="20" />
-            </svg>
-            <svg width="100" height="20" className="mx-2">
-              <image href="https://ext.same-assets.com/1015004795/3160495444.svg" width="100" height="20" />
-            </svg>
-            <svg width="30" height="20">
-              <image href="https://ext.same-assets.com/1015004795/2771603144.svg" width="30" height="20" />
-            </svg>
-            <span className="ml-2">ABN - 90794605008</span>
-          </div>
+        <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
+          <p>Hak Cipta © Kemendukbangga - Kementerian Kependudukan dan Pembangunan Keluarga/Badan Kependudukan dan Keluarga Berencana Nasional</p>
         </div>
       </div>
     </footer>

@@ -31,9 +31,7 @@ export default function DimensiLantangPage() {
       <section className="py-4 border-b">
         <div className="container mx-auto">
           <div className="flex items-center text-sm">
-            <Link href="/" className="text-blue-600 hover:underline">Home</Link>
-            <span className="mx-2">›</span>
-            <Link href="/sidaya" className="text-blue-600 hover:underline">SIDAYA</Link>
+            <Link href="/" className="text-amber-600 hover:underline">Home</Link>
             <span className="mx-2">›</span>
             <span>7 Dimensi Lantang</span>
           </div>
@@ -58,8 +56,8 @@ export default function DimensiLantangPage() {
                 </div>
                 <h3 className="text-xl font-bold mb-2">Spiritual</h3>
                 <p className="mb-4">Pengembangan aspek spiritual dan keagamaan untuk ketenangan batin dan makna hidup di usia senja.</p>
-                <Link href="/dimensi/spiritual" className="text-blue-600 hover:underline flex items-center">
-                  Pelajari lebih lanjut
+                <Link href="/dimensi/spiritual" className="text-[#FFB200] hover:text-[#e69c00] hover:underline flex items-center mt-auto font-medium">
+                  Selengkapnya
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
                     <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" />
                   </svg>
@@ -78,8 +76,8 @@ export default function DimensiLantangPage() {
                 </div>
                 <h3 className="text-xl font-bold mb-2">Intelektual</h3>
                 <p className="mb-4">Stimulasi kecerdasan dan pembelajaran sepanjang hayat untuk menjaga ketajaman pikiran.</p>
-                <Link href="/dimensi/intelektual" className="text-blue-600 hover:underline flex items-center">
-                  Pelajari lebih lanjut
+                <Link href="/dimensi/intelektual" className="text-[#FFB200] hover:text-[#e69c00] hover:underline flex items-center mt-auto font-medium">
+                  Selengkapnya
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
                     <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" />
                   </svg>
@@ -102,8 +100,8 @@ export default function DimensiLantangPage() {
                 </div>
                 <h3 className="text-xl font-bold mb-2">Fisik</h3>
                 <p className="mb-4">Pemeliharaan kesehatan fisik melalui aktivitas, nutrisi, dan pemeriksaan kesehatan rutin.</p>
-                <Link href="/dimensi/fisik" className="text-blue-600 hover:underline flex items-center">
-                  Pelajari lebih lanjut
+                <Link href="/dimensi/fisik" className="text-[#FFB200] hover:text-[#e69c00] hover:underline flex items-center mt-auto font-medium">
+                  Selengkapnya
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
                     <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" />
                   </svg>
@@ -124,8 +122,8 @@ export default function DimensiLantangPage() {
                 </div>
                 <h3 className="text-xl font-bold mb-2">Emosional</h3>
                 <p className="mb-4">Pengelolaan emosi dan kesehatan mental untuk kesejahteraan psikologis di usia lanjut.</p>
-                <Link href="/dimensi/emosional" className="text-blue-600 hover:underline flex items-center">
-                  Pelajari lebih lanjut
+                <Link href="/dimensi/emosional" className="text-[#FFB200] hover:text-[#e69c00] hover:underline flex items-center mt-auto font-medium">
+                  Selengkapnya
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
                     <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" />
                   </svg>
@@ -149,8 +147,8 @@ export default function DimensiLantangPage() {
                 </div>
                 <h3 className="text-xl font-bold mb-2">Sosial Kemasyarakatan</h3>
                 <p className="mb-4">Keterlibatan dalam kehidupan sosial dan kontribusi positif bagi masyarakat sekitar.</p>
-                <Link href="/dimensi/sosial" className="text-blue-600 hover:underline flex items-center">
-                  Pelajari lebih lanjut
+                <Link href="/dimensi/sosial" className="text-[#FFB200] hover:text-[#e69c00] hover:underline flex items-center mt-auto font-medium">
+                  Selengkapnya
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
                     <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" />
                   </svg>
@@ -170,8 +168,8 @@ export default function DimensiLantangPage() {
                 </div>
                 <h3 className="text-xl font-bold mb-2">Profesional Vokasional</h3>
                 <p className="mb-4">Pengembangan keterampilan dan potensi produktif untuk tetap berkarya di usia lanjut.</p>
-                <Link href="/dimensi/profesional" className="text-blue-600 hover:underline flex items-center">
-                  Pelajari lebih lanjut
+                <Link href="/dimensi/profesional" className="text-[#FFB200] hover:text-[#e69c00] hover:underline flex items-center mt-auto font-medium">
+                  Selengkapnya
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
                     <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" />
                   </svg>
@@ -191,8 +189,8 @@ export default function DimensiLantangPage() {
                 </div>
                 <h3 className="text-xl font-bold mb-2">Lingkungan</h3>
                 <p className="mb-4">Penyesuaian dan penciptaan lingkungan yang mendukung untuk kehidupan lansia yang nyaman.</p>
-                <Link href="/dimensi/lingkungan" className="text-blue-600 hover:underline flex items-center">
-                  Pelajari lebih lanjut
+                <Link href="/dimensi/lingkungan" className="text-[#FFB200] hover:text-[#e69c00] hover:underline flex items-center mt-auto font-medium">
+                  Selengkapnya
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
                     <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" />
                   </svg>

@@ -62,7 +62,7 @@ export default function KesehatanDanDisabilitasPage() {
             </div>
             <div className="mt-8 md:mt-0">
                             <img 
-                src="https://cdn-icons-png.flaticon.com/512/5999/5999212.png" 
+                src="images/disabled.png" 
                 alt="Kesehatan dan Disabilitas" 
                 className="w-64 h-64 object-contain"
               />

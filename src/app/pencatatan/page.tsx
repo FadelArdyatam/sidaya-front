@@ -62,7 +62,7 @@ export default function PencatatanPelaporanPage() {
             </div>
             <div className="mt-8 md:mt-0">
               <img 
-                src="https://cdn-icons-png.flaticon.com/512/4052/4052981.png" 
+                src="images/disabled.png" 
                 alt="Pencatatan dan Pelaporan" 
                 className="w-64 h-64 object-contain"
               />
@@ -76,8 +76,6 @@ export default function PencatatanPelaporanPage() {
         <div className="container mx-auto">
           <div className="flex items-center text-sm">
             <Link href="/" className="text-[#FFB200] hover:underline">Beranda</Link>
-            <span className="mx-2 text-gray-400">›</span>
-            <Link href="/sidaya" className="text-[#FFB200] hover:underline">SIDAYA</Link>
             <span className="mx-2 text-gray-400">›</span>
             <span className="text-gray-600">Pencatatan & Pelaporan</span>
           </div>

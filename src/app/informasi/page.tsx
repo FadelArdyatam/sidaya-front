@@ -103,7 +103,7 @@ export default function SidayaPage() {
               </div>
             </div>
             <div className="mt-8 md:mt-0">
-              <img src="https://ext.same-assets.com/3547723459/2781757559.svg" alt="Informasi" className="w-64 h-64" />
+              <img src="https://www.flaticon.com/free-icons/information" title="information icons" alt="Informasi" className="w-64 h-64" />
             </div>
           </div>
         </div>
@@ -115,7 +115,7 @@ export default function SidayaPage() {
           <div className="flex items-center text-sm">
             <Link href="/" className="text-[#FFB200] hover:underline">Home</Link>
             <span className="mx-2 text-gray-400">›</span>
-            <span className="text-gray-600">SIDAYA</span>
+            <span className="text-gray-600">informasi</span>
           </div>
         </div>
       </section>

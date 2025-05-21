@@ -93,7 +93,7 @@ export default function SidayaPage() {
           <div className="flex items-center text-sm">
             <Link href="/" className="text-[#FFB200] hover:underline">Home</Link>
             <span className="mx-2 text-gray-400">›</span>
-            <span className="text-gray-600">SIDAYA</span>
+            <span className="text-gray-600">Artikel</span>
           </div>
         </div>
       </section>

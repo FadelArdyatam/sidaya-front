@@ -284,7 +284,7 @@ export default function Header() {
                 } px-4 py-3 whitespace-nowrap text-sm font-medium hover:shadow`}
                 onClick={() => setCurrentSecondaryTab("kesehatan-dan-disabilitas")}
               >
-                Health and disability
+                Kesehatan dan Disabilitas
               </button>
             </Link>
           </nav>

@@ -63,7 +63,7 @@ export default function PencatatanPelaporanPage() {
             </div>
             <div className="mt-8 md:mt-0">
               <Image 
-                src="/images/disabled.png" 
+                src="/images/document.png" 
                 alt="Pencatatan dan Pelaporan" 
                 width={256} 
                 height={256} 
@@ -92,7 +92,7 @@ export default function PencatatanPelaporanPage() {
             {menuItems.map((item, index) => (
               <Card 
                 key={index} 
-                className="hover:shadow-lg transition-shadow duration-300 border border-gray-100 hover:border-[#FFB200]"
+                className="hover:shadow-lg transition-shadow duration-300 border border-gray-100"
               >
                 <CardContent className="p-6 h-full flex flex-col">
                   <div className="flex items-center justify-center mb-4 p-4">

@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import Image from 'next/image';
 
 export default function SidayaPage() {
   const menuItems = [
@@ -103,7 +104,13 @@ export default function SidayaPage() {
               </div>
             </div>
             <div className="mt-8 md:mt-0">
-              <img src="https://www.flaticon.com/free-icons/information" title="information icons" alt="Informasi" className="w-64 h-64" />
+                            <Image 
+                              src="/images/info.png" 
+                              alt="Pencatatan dan Pelaporan" 
+                              width={256} 
+                              height={256} 
+                              className="object-contain"
+                            />
             </div>
           </div>
         </div>
@@ -125,14 +132,14 @@ export default function SidayaPage() {
         <div className="container mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {menuItems.map((item, index) => (
-              <Card key={index} className="hover:shadow-lg transition-shadow duration-300">
+              <Card key={index} className="hover:shadow-lg transition-shadow duration-300 border border-gray-100">
                 <CardContent className="p-6 h-full flex flex-col">
                   <div className="flex items-center justify-center mb-4">
                     {item.icon}
                   </div>
-                  <h3 className="text-xl font-bold mb-2 text-[#FFB200]">{item.title}</h3>
+                  <h3 className="text-xl font-bold mb-2 ">{item.title}</h3>
                   <p className="mb-4 flex-grow">{item.description}</p>
-                  <Link href={item.link} className="text-[#FFB200] hover:text-[#e69c00] hover:underline flex items-center mt-auto">
+                  <Link href={item.link} className="text-[#FFB200] hover:text-[#e69c00] hover:bg-gray-100 flex items-center mt-auto">
                     Selengkapnya
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
                       <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" />

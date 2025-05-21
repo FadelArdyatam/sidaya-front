@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Apple, BookOpen, HeartPulse, Activity, Lightbulb, FileText, Users, FileSearch, Download } from 'lucide-react';
+import Image from 'next/image';
 
 export default function SidayaPage() {
   const menuItems = [
@@ -81,7 +82,13 @@ export default function SidayaPage() {
               </div>
             </div>
             <div className="mt-8 md:mt-0">
-              <img src="https://example.com/lansia-dimensi.svg" alt="7 Dimensi Lantang" className="w-64 h-64" />
+                            <Image 
+                              src="/images/newspaper.png" 
+                              alt="Pencatatan dan Pelaporan" 
+                              width={256} 
+                              height={256} 
+                              className="object-contain"
+                            />
             </div>
           </div>
         </div>

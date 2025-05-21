@@ -3,8 +3,8 @@ import type { Metadata } from "next";
 import { ClientBody } from "./ClientBody";
 
 export const metadata: Metadata = {
-  title: "Services Australia",
-  description: "We deliver government payments and services",
+  title: "Sidaya ",
+  description: "Menghargai Perjalanan Lansia",
 };
 
 export default function RootLayout({

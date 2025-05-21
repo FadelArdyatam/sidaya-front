@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image'; // Import komponen Image dari next/image
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ClipboardList, FileText, BarChart2, Archive, UserPlus, CalendarCheck } from 'lucide-react';
@@ -45,7 +46,7 @@ export default function PencatatanPelaporanPage() {
 
   return (
     <div className="flex flex-col">
-           {/* Hero Section */}
+      {/* Hero Section */}
       <section className="bg-white py-12">
         <div className="container mx-auto">
           <div className="flex flex-col md:flex-row items-center justify-between">
@@ -61,10 +62,12 @@ export default function PencatatanPelaporanPage() {
               </div>
             </div>
             <div className="mt-8 md:mt-0">
-              <img 
-                src="images/disabled.png" 
+              <Image 
+                src="/images/disabled.png" 
                 alt="Pencatatan dan Pelaporan" 
-                className="w-64 h-64 object-contain"
+                width={256} 
+                height={256} 
+                className="object-contain"
               />
             </div>
           </div>

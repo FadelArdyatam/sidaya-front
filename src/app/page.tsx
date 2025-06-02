@@ -60,7 +60,7 @@ export default function SidayaPage() {
                 <ShieldCheck className="w-4 h-4 mr-2" /> Layanan Resmi Kemendukbangga
               </div>
               <p className="mb-6 text-2xl text-gray-700">
-                Selamat Datang Di
+                Selamat Datang di
               </p>
               <h1 className="mb-4 text-5xl font-bold md:text-6xl text-[#ae862e] leading-tight">
                 SIDAYA

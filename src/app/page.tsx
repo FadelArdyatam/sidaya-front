@@ -154,7 +154,8 @@ export default function SidayaPage() {
               <div className="p-6 mb-6 bg-blue-50 rounded-xl border-l-4 border-[#1d71b8]">
                 <div className="flex">
                   <div className="mr-4 text-2xl font-bold text-[#ae862e]">Visi:</div>
-                  <div className="text-lg italic">&quot;Lansia Indonesia yang mandiri, sejahtera, dan bermartabat&quot;</div>
+                  <div className="text-lg italic">Tangguh dan Sehati
+&quot;TSehat Aman dan Berpartisipasi&quot;</div>
                 </div>
               </div>
               

@@ -78,7 +78,7 @@ export default function SidayaPage() {
             <div className="relative w-full md:w-1/2">
               <div className="relative z-10">
                 <Image 
-                  src="/images/lansia-berdaya.png" 
+                  src="/images/kakek.jpg" 
                   alt="Lansia Berdaya" 
                   width={600} 
                   height={500} 

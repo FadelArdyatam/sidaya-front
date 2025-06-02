@@ -77,7 +77,7 @@ export default function SidayaPage() {
                 <ShieldCheck className="w-4 h-4 mr-2" /> Layanan Resmi Kemendukbangga
               </div>
               <h1 className="mb-4 text-5xl font-bold md:text-6xl text-[#ae862e] leading-tight">
-                Layanan Terpadu <span className="text-[#1d71b8]">SIDAYA</span>
+                SIDAYA
               </h1>
               <p className="mb-6 text-2xl text-gray-700">
                 Sistem Informasi dan Layanan Terpadu untuk meningkatkan kualitas hidup lansia Indonesia.

@@ -59,12 +59,12 @@ export default function SidayaPage() {
               <div className="inline-flex items-center px-4 py-2 mb-4 text-sm font-medium rounded-full bg-[#1d71b8]/10 text-[#1d71b8]">
                 <ShieldCheck className="w-4 h-4 mr-2" /> Layanan Resmi Kemendukbangga
               </div>
+              <p className="mb-6 text-2xl text-gray-700">
+                Selamat Datang Di
+              </p>
               <h1 className="mb-4 text-5xl font-bold md:text-6xl text-[#ae862e] leading-tight">
                 SIDAYA
               </h1>
-              <p className="mb-6 text-2xl text-gray-700">
-                Sistem Informasi dan Layanan Terpadu untuk meningkatkan kualitas hidup lansia Indonesia.
-              </p>
               <div className="flex flex-wrap gap-6">
                 <Button className="text-white bg-[#ae862e] rounded-none hover:bg-[#d2ac47] px-8 py-6 text-lg shadow-lg transform hover:scale-105 transition-transform duration-300 flex items-center">
                   Daftar Sekarang <ChevronRight className="w-5 h-5 ml-2" />

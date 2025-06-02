@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import Image from 'next/image'; // Import komponen Image dari next/image
+import Image from 'next/image'; 
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ClipboardList, FileText, BarChart2, Archive, UserPlus, CalendarCheck } from 'lucide-react';

@@ -64,14 +64,12 @@ export default function SidayaPage() {
 
   return (
     <div className="flex flex-col">
-      {/* Hero Section */}
-       {/* Hero Section */}
-      <section className="bg-white py-12">
+      <section className="py-12 bg-white">
         <div className="container mx-auto">
-          <div className="flex flex-col md:flex-row items-center justify-between">
+          <div className="flex flex-col items-center justify-between md:flex-row">
             <div className="max-w-2xl">
-              <h1 className="text-4xl md:text-5xl font-bold mb-4">Artikel</h1>
-              <p className="text-xl mb-6">
+              <h1 className="mb-4 text-4xl font-bold md:text-5xl">Artikel</h1>
+              <p className="mb-6 text-xl">
                 Informasi dan layanan terpadu untuk meningkatkan kualitas hidup lansia Indonesia. 
                 Dapatkan artikel kesehatan, tips hidup sehat, info penyakit, kegiatan, dan program bermanfaat untuk lansia.
               </p>
@@ -108,21 +106,21 @@ export default function SidayaPage() {
       {/* Content */}
       <section className="py-12">
         <div className="container mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
             {menuItems.map((item, index) => (
-              <Card key={index} className="hover:shadow-lg transition-shadow duration-300 border border-gray-100">
-                <CardContent className="p-6 h-full flex flex-col">
-                  <div className="flex items-center justify-center mb-4 p-4">
+              <Card key={index} className="transition-shadow duration-300 border border-gray-100 hover:shadow-lg">
+                <CardContent className="flex flex-col h-full p-6">
+                  <div className="flex items-center justify-center p-4 mb-4">
                     {item.icon}
                   </div>
-                  <h3 className="text-xl font-bold mb-2 text-gray-800">{item.title}</h3>
-                  <p className="mb-4 flex-grow text-gray-600">{item.description}</p>
+                  <h3 className="mb-2 text-xl font-bold text-gray-800">{item.title}</h3>
+                  <p className="flex-grow mb-4 text-gray-600">{item.description}</p>
                   <Link 
                     href={item.link} 
                     className="text-[#FFB200] hover:text-[#e69c00] hover:underline flex items-center mt-auto font-medium"
                   >
                     Selengkapnya
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
                       <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" />
                     </svg>
                   </Link>
@@ -136,15 +134,15 @@ export default function SidayaPage() {
       {/* Feedback Section */}
       <section className="py-8 border-t">
         <div className="container mx-auto">
-          <div className="flex flex-col md:flex-row items-start md:items-center justify-between">
+          <div className="flex flex-col items-start justify-between md:flex-row md:items-center">
             <div>
-              <p className="font-medium mb-2">Apakah halaman ini bermanfaat?</p>
+              <p className="mb-2 font-medium">Apakah halaman ini bermanfaat?</p>
               <div className="flex space-x-2">
                 <Button variant="outline" className="border-gray-300 hover:bg-gray-100">Tidak</Button>
                 <Button variant="outline" className="border-gray-300 hover:bg-gray-100">Ya</Button>
               </div>
             </div>
-            <div className="mt-4 md:mt-0 text-sm text-gray-500">
+            <div className="mt-4 text-sm text-gray-500 md:mt-0">
               Halaman terakhir diperbarui: {new Date().toLocaleDateString('id-ID', { day: 'numeric', month: 'long', year: 'numeric' })}.
             </div>
           </div>

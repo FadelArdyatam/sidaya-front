@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
 @import "tailwindcss";
 @import "tw-animate-css";
 
@@ -115,7 +118,8 @@
 @layer base {
   * {
     @apply border-border outline-ring/50;
-    --font-sans: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
   }
   body {
     @apply bg-background text-foreground;

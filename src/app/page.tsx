@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { Button } from "@/components/ui/button";
-import { Info, FileText, ShieldCheck, MessageSquare, ClipboardCheck, Mail, Phone, MapPin, Clock, ChevronRight, Download, ExternalLink } from 'lucide-react';
+import { Info, FileText, ShieldCheck, MessageSquare, ClipboardCheck, Mail, Phone, MapPin, Clock, ChevronRight } from 'lucide-react';
 import Image from 'next/image';
 
 export default function SidayaPage() {
@@ -43,23 +43,6 @@ export default function SidayaPage() {
     }
   ];
 
-  const testimonials = [
-    {
-      quote: "Pelayanan Sidaya sangat membantu saya mendapatkan bantuan sosial dengan mudah.",
-      author: "Budi Santoso, 67 tahun",
-      location: "Jakarta Timur"
-    },
-    {
-      quote: "Petugas sangat ramah dan membantu menjelaskan semua prosedur dengan jelas.",
-      author: "Siti Aminah, 72 tahun",
-      location: "Bekasi"
-    },
-    {
-      quote: "Aplikasi online-nya sederhana dan mudah digunakan bahkan untuk lansia seperti saya.",
-      author: "Darmawan, 70 tahun",
-      location: "Depok"
-    }
-  ];
 
   return (
     <div className="flex flex-col">
@@ -171,7 +154,7 @@ export default function SidayaPage() {
               <div className="p-6 mb-6 bg-blue-50 rounded-xl border-l-4 border-[#1d71b8]">
                 <div className="flex">
                   <div className="mr-4 text-2xl font-bold text-[#ae862e]">Visi:</div>
-                  <div className="text-lg italic">"Lansia Indonesia yang mandiri, sejahtera, dan bermartabat"</div>
+                  <div className="text-lg italic">&quot;Lansia Indonesia yang mandiri, sejahtera, dan bermartabat&quot;</div>
                 </div>
               </div>
               

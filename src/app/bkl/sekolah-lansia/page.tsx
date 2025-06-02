@@ -138,7 +138,7 @@ export default function SekolahLansiaPage() {
                 <div className="absolute -bottom-6 -right-6 bg-[#ae862e] p-4 rounded-xl shadow-lg max-w-xs">
                   <div className="flex items-center">
                     <Smile className="w-8 h-8 mr-3 text-white" />
-                    <p className="font-medium text-white">"Belajar itu menyenangkan di usia berapa pun!"</p>
+                    <p className="font-medium text-white">&quot;Belajar itu menyenangkan di usia berapa pun!&quot;</p>
                   </div>
                 </div>
               </div>
@@ -217,7 +217,7 @@ export default function SekolahLansiaPage() {
                 </div>
               </div>
               <p className="italic text-gray-700">
-                "Saya jadi lebih paham cara mengatur pola makan yang sehat untuk usia saya. Guru-gurunya sabar dan materi mudah dipahami."
+                &quot;Saya jadi lebih paham cara mengatur pola makan yang sehat untuk usia saya. Guru-gurunya sabar dan materi mudah dipahami.&quot;
               </p>
             </div>
             
@@ -240,7 +240,7 @@ export default function SekolahLansiaPage() {
                 </div>
               </div>
               <p className="italic text-gray-700">
-                "Senang bisa belajar membuat kerajinan tangan yang ternyata bisa dijual juga. Sekolah Lansia bikin masa tua lebih produktif."
+                &quot;Senang bisa belajar membuat kerajinan tangan yang ternyata bisa dijual juga. Sekolah Lansia bikin masa tua lebih produktif.&quot;
               </p>
             </div>
             
@@ -263,7 +263,7 @@ export default function SekolahLansiaPage() {
                 </div>
               </div>
               <p className="italic text-gray-700">
-                "Tadinya pensiun bikin saya kesepian. Sekarang punya banyak teman baru dan kegiatan positif di Sekolah Lansia."
+                &quot;Tadinya pensiun bikin saya kesepian. Sekarang punya banyak teman baru dan kegiatan positif di Sekolah Lansia.&quot;
               </p>
             </div>
           </div>

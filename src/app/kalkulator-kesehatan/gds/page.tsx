@@ -55,7 +55,7 @@ export default function GDSCalculator() {
               <div className="mb-8">
                 <h2 className="text-xl font-bold text-[#1d71b8] mb-4">Petunjuk Pengisian:</h2>
                 <ul className="pl-5 space-y-2 text-gray-700 list-disc">
-                  <li>Jawab setiap pertanyaan dengan "Ya" atau "Tidak"</li>
+                  <li>Jawab setiap pertanyaan dengan &quot;Ya&quot; atau &quot;Tidak&quot;</li>
                   <li>Merujuk pada perasaan Anda selama 1 minggu terakhir</li>
                   <li>Total skor maksimal 15 (semakin tinggi semakin berat gejala depresi)</li>
                 </ul>
